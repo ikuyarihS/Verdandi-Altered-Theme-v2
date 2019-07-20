@@ -1,0 +1,25 @@
+{
+    "name": "verdandi-alter-customized",
+    "displayName": "Verdandi Alter Customized",
+    "description": "Customized colors for Verdandi Alter.",
+    "publisher": "Shirayuki",
+    "version": "0.1.11",
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Verdandi Alter Customized",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Verdandi Altered-color-theme.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "vsce": "^1.65.0"
+    }
+}
