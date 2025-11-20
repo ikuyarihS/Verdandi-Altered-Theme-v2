@@ -1,25 +1,30 @@
 {
-    "name": "verdandi-alter-customized",
-    "displayName": "Verdandi Alter Customized",
-    "description": "Customized colors for Verdandi Alter.",
-    "publisher": "Shirayuki",
-    "version": "0.1.11",
-    "engines": {
-        "vscode": "^1.35.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Verdandi Alter Customized",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Verdandi Altered-color-theme.json"
-            }
-        ]
-    },
-    "dependencies": {
-        "vsce": "^1.65.0"
-    }
+  "name": "verdandi-alter-customized",
+  "displayName": "Verdandi Alter Customized",
+  "version": "0.4.29",
+  "description": "Customized colors for Verdandi Alter.",
+  "categories": [
+    "Themes"
+  ],
+  "publisher": "Shirayuki",
+  "license": "MIT",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Verdandi Alter Customized",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Verdandi Altered-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package"
+  },
+  "dependencies": {
+    "vsce": "^1.66.0"
+  },
+  "engines": {
+    "vscode": "^1.35.0"
+  },
+  "icon": "images/icon.png"
 }
