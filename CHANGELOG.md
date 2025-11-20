@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.4.30] - 2025-11-21
+
+- Add license.
+
 ## [0.4.29] - 2022-08-05
 
 - Fix scrollbarSlider too dark and invisible when hovering.
